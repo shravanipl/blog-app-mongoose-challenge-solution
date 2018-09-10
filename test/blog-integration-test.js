@@ -189,6 +189,7 @@ describe('blog posts API resource', function () {
         }
       };
 
+
       return BlogPost
         .findOne()
         .then(post => {
